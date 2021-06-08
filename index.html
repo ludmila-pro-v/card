@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Card</title>
 </head>
+
 <body>
-  
+  <div class="wrapper">
+    <div class="oval"></div>
+    <section class="card">
+      <header class="card__header">
+        <div class="card__image-wrapper">
+          <img class="card__image" src="card-image.png" alt="фото">
+        </div>
+      </header>
+      <main>
+        <div class="card__description">
+          <div class="card__name">
+            <h2 class="card__title">Victor Crest</h2>
+            <span class="card__age">26</span>
+          </div>
+          <div class="card__place">London</div>
+          <!-- /.card__place -->
+        </div>
+        <!-- /.card__description -->
+      </main>
+      <footer class="card__footer">
+        <div class="card__value">
+          <div class="card__title">80K</div>
+          <div class="card__digit">Followers</div>
+        </div>
+        <div class="card__value">
+          <div class="card__title">803K</div>
+          <div class="card__digit">Likes</div>
+        </div>
+        <div class="card__value">
+          <div class="card__title">1.4K</div>
+          <div class="card__digit">Photos</div>
+        </div>
+      </footer>
+    </section>
+    <div class="oval"></div>
+  </div>
+  <!-- /.wrapper -->
+
 </body>
+
 </html>
