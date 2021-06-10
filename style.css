@@ -127,7 +127,7 @@ body {
 
 .oval__right {
   right: -273px;
-  top: 377px;
+  bottom: -600px;
   opacity: 0.25;
   transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
 }
@@ -174,3 +174,28 @@ body {
   position: relative;
 }
 
+@media screen and (max-width: 760px) {
+
+  .card {
+    width: 326px;
+  }
+
+  .oval {
+    width: 622px;
+    height: 621px;
+
+  }
+
+  .oval__left {
+    left: -402px;
+    top: -375px;
+    opacity: 0.25;
+  }
+
+  .oval__right {
+    opacity: 0.25;
+    right: -414px;
+    bottom: -322px;
+  }
+
+}
