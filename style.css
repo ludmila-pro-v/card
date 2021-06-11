@@ -54,9 +54,8 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -138px;
   left: 50%;
-  transform: translate(-50%, 92px);
+  transform: translate(-50%, -50%);
 }
 
 .card__image {
@@ -90,9 +89,10 @@ body {
 .card__footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 26px;
   padding-left: 31px;
   padding-right: 31px;
+  padding-top: 24px;
   border-top: 1px solid #E8E9EC;
 }
 
@@ -178,6 +178,7 @@ body {
 
   .card {
     width: 326px;
+    max-width: 90%;
   }
 
   .oval {
